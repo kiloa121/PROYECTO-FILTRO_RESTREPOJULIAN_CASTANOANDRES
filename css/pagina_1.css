@@ -1,0 +1,37 @@
+body{
+    margin: 0%;
+    height: 100%;
+    background-image: url(/recursos/pexels-pixabay-159400.png);
+}
+
+#contenedor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.849);
+}
+
+img{
+    animation: time 2s linear;
+}
+
+@keyframes time {
+    0%{
+        opacity: 100%;
+
+    }
+    25%{
+        opacity: 0%;
+    }
+    65%{  
+        opacity: 0%;
+    }
+    75%{
+     opacity: 100%;   
+    }
+    100%{
+        opacity: 100%s;
+    }
+}
+
