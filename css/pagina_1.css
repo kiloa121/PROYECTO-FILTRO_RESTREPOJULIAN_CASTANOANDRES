@@ -1,37 +1,114 @@
 body{
-    margin: 0%;
-    height: 100%;
+    background-size: cover;
     background-image: url(/recursos/pexels-pixabay-159400.png);
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+#imagen{
+    animation: logo 2s linear 3s;
+    opacity: 0;
+    position: relative;
 }
 
 #contenedor{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
-    background-color: rgba(0, 0, 0, 0.849);
+}
+#login{
+    width: 38%;
+    background-color: white;
+    height: 40%;
+    position: absolute;
+    border-radius:20px;
+    animation: login 10s linear;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
-img{
-    animation: time 2s linear;
+h1{
+    font-size: 18px;
+    text-align: center;
+}
+p{
+    font-size:14px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+label{
+    font: size 14px;
+    display: block;
+    margin-bottom: 5px;
+}
+input{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+button{
+    width: 100%;
+    padding: 10px;
+    background-color: #ff5722;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
 }
 
-@keyframes time {
+#contenedorimagen{
+    width: 10%;
+    width: 10%;
+}
+#imglogin{
+    height: 100%;
+    width: 100%;
+}
+
+@keyframes logo {
     0%{
-        opacity: 100%;
+      opacity: 1;  
+    }
+    25%{
+      opacity: 0;  
+    }
+    50%{
+        opacity: 0;
+    }
+    75%{
+        opacity: 1;
+    }
+    90%{
+       opacity: 1; 
+    }
+    100%{
+        opacity: 0;
+    }
+}
+
+@keyframes login {
+    0%{
+        opacity: 0;
 
     }
     25%{
-        opacity: 0%;
+        opacity: 0;
     }
-    65%{  
-        opacity: 0%;
+    50%{
+        opacity: 0;
+        
     }
     75%{
-     opacity: 100%;   
+        opacity: 1;
+        
     }
     100%{
-        opacity: 100%s;
+        opacity: 1;
     }
 }
-
