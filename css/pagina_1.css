@@ -10,6 +10,7 @@ body{
     justify-content: center;
     width: 100%;
     height: 100%;
+    margin: 0;
 }
 
 #container{
@@ -25,8 +26,8 @@ body{
     background-color: white;
     row-gap: 1px;
     border-radius: 4%;
-    width: 44%;
-    height: 66%;
+    width: 40%;
+    height: 60%;
     position: absolute;
     gap: 12px;
     animation: loginanimation 5s linear;
@@ -50,23 +51,24 @@ form{
     flex-direction: column;
     align-items: start;
     gap: 10px;
-    width: 90%;
-    height: 40%;
+    width: 80%;
+    height: 100%;
+    font-family:sans-serif;
 }
-form button{
-    display: flex;
+
+#button_1{
     text-align: center;
     justify-content: center;
     align-self: center;
     margin: 9px;
     border-radius: 20px;
-    width: 30%;
-    padding: 1%;
-    height: 26%;
+    width: 40%;
+    padding: 5px;
+    height: 96%;
     border: none;
-    background-color:rgb(255, 138, 111);
+    background-color:rgb(247, 78, 48);
     cursor: pointer;
-    font-size: large;
+
 }
 
 form button:hover{
@@ -77,21 +79,25 @@ form input{
     border-radius: 30px;
     border-color: gray;
     border: 1px solid gray;
-    height: 25px;
+    height: 95%;
     padding: 1px;
 }
 h1{
     margin-left: 10px;
     margin-right: 10px;
+    font-family:sans-serif;
     align-content: center;
     text-align: center;
     margin: 1px;
     font-size:170%;
-    height: 120%;
+    height: 50%;
+    width: 70%;
 }
 
 #texto{
     font-size: 15px;
+    color: gray;
+    font-family:sans-serif;
     height: 7%;
     justify-content: center;
     margin-left: 10px;
@@ -108,13 +114,14 @@ a{
 }
 
 #ultimo{
-    font-size: 90%;
+    font-size: 65%;
     color: gray;
     font-family:sans-serif;
     margin: 0.1%;
     text-align: center;
-    height: 100%;
+    height: 30%;
     align-content: center;
+    width: 70%;
 }
 @keyframes logoanimation {
     0%{
