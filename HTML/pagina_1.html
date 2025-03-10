@@ -3,12 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>pagina_1</title>
+    <title>lOGIN KAIRO</title>
     <link rel="stylesheet" href="/css/pagina_1.css">
+    <link rel="icon" type="image/png" href="/recursos/favicon/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/svg+xml" href="/recursos/favicon/favicon.svg" />
+    <link rel="shortcut icon" href="/recursos/favicon/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/recursos/favicon/apple-touch-icon.png" />
+    <link rel="manifest" href="/recursos/favicon/site.webmanifest" />
 </head>
 <body>
-    <div id="contenedor">
-        <img src="/recursos/kario sin kairo.svg" alt="imagen incio">
+    <div id="container">
+        <img src="/recursos/kario sin kairo.svg" alt="imagen de carga" id="logo">
+        <nav id="login">
+            <img src="/recursos/imagen_login.png" alt="logologin">
+            <h1>Bienvenido al panel digital de KAIRO Media</h1>
+            <p id="texto">Por favor ingresa los siguientes datos para ingresar a la plataforma</p>
+            <form>
+                <label for="name">Usuario</label>
+                <input type="text" name="name" required>
+                <label for="password">Contraseña</label>
+                <input type="password" name="password" required>
+                <button type="submit"><a href="/HTML/pagina_2.html">Ingresar al panel</a></button>
+            </form>
+            <p id="ultimo">Tienes porblemas para ingresar ? Por favor contactarse con asistencia técnica lo más pronto posible</p>
+        </nav>
     </div>
+    
 </body>
 </html>
